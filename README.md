@@ -1,45 +1,15 @@
-🍽️ Sabor Express: Sistema de Gerenciamento de Restaurantes (CLI)
+🍽️ Sabor Express: Sistema Básico de Gerenciamento (CLI)
 
-Este repositório contém o projeto Sabor Express, uma aplicação de Interface de Linha de Comando (CLI) desenvolvida em Python para gerenciar o cadastro e o status de restaurantes.
+Este projeto é uma aplicação de Interface de Linha de Comando (CLI) desenvolvida em Python. Foi criado com o propósito de simular a gestão fundamental de um negócio de alimentação, focando na organização e controle do cadastro de estabelecimentos.
 
-O projeto foi criado com o objetivo de demonstrar habilidades básicas de programação, incluindo:
+🎯 Proposta & Solução
 
-Estruturas de dados (listas e dicionários).
+Em um contexto acadêmico, o Sabor Express serve para demonstrar a aplicação de:
 
-Estruturas de controle de fluxo (laços e condicionais).
+Estruturas de Dados: Uso de listas e dicionários para armazenar e modelar informações de restaurantes.
 
-Modularização de código em funções.
+Controle de Fluxo: Implementação de lógicas de busca, listagem e alteração de status através de condicionais (if/elif) e laços de repetição (for).
 
-Tratamento de entradas do usuário (try-except).
+Modularização: O código é dividido em funções claras, melhorando a organização e a legibilidade.
 
-⚙️ Tecnologias Utilizadas
-
-O Sabor Express é uma aplicação minimalista, utilizando apenas recursos nativos:
-
-Linguagem Principal: Python 3
-
-Interface: Linha de Comando (CLI)
-
-Persistência de Dados: Lista em memória (sem uso de banco de dados, os dados são temporários para cada execução).
-
-✨ Principais Funcionalidades
-
-O sistema é operado através de um menu interativo e oferece as seguintes opções:
-
-Cadastrar Restaurante: Permite ao usuário adicionar um novo restaurante, solicitando seu nome e categoria, e o armazena na lista principal.
-
-Listar Restaurantes: Exibe em formato de tabela todos os restaurantes cadastrados, juntamente com sua categoria e status atual (Ativado/Desativado).
-
-Alternar Estado: Permite ao usuário buscar um restaurante pelo nome e mudar seu status de ativo para desativado, e vice-versa.
-
-Sair: Finaliza a execução do programa.
-
-📜 Código e Estrutura
-
-O código é estruturado em funções claras para facilitar a manutenção e leitura, como:
-
-exibir_nome_do_programa(): Exibe a arte ASCII do nome do projeto.
-
-exibir_subtitulo(texto): Responsável por limpar a tela e formatar o cabeçalho das seções.
-
-main(): Contém o loop principal que mantém o menu em execução.
+A solução oferece uma interface simples para que o usuário possa cadastrar, listar e alterar o estado de atividade de um restaurante, simulando tarefas essenciais de um sistema de gestão.
